@@ -8,8 +8,6 @@ First version of an Arduino Library for the SharpGP2Y10 dust sensor
 */
 /**************************************************************************/
 
-#include <Arduino.h>
-
 
     //Mỗi xung lấy mẫu là 10ms
     //Mỗi xung bật LED là 0.32ms, trong đó:

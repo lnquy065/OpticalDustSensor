@@ -11,11 +11,13 @@ First version of an Arduino Library for the SharpGP2Y10 dust sensor
 #include "SharpGP2Y10.h"
 
 SharpGP2Y10::SharpGP2Y10(int voPin, int ledPin) {
+    pinMode(ledPin, OUTPUT);
     this->voPin = voPin;
     this->ledPin = ledPin;
 }
 
 SharpGP2Y10::SharpGP2Y10(int voPin, int ledPin, float vccVol) {
+    pinMode(ledPin, OUTPUT);
     this->voPin = voPin;
     this->ledPin = ledPin;
     this->vccVol = vccVol;
