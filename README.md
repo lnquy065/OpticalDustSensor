@@ -35,7 +35,7 @@ float dustVal = dustSensor.getDustDensity();
 Serial.println(dustVal);
 ```
 
-### Contructors
+### Constructors
 + SharpGP2Y10(int voPin, int ledPin)
   - voPin: Vo (5)
   - ledPin: LED (3)
